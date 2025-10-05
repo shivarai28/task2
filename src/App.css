@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+@import '@splidejs/react-splide/css';
+
+
+
+@import '@splidejs/react-splide/css/skyblue';
+@import '@splidejs/react-splide/css/sea-green';
+
+
+
+@import '@splidejs/react-splide/css/core';
+
+
+
+:root {
+  --ttRed: #FF0000;
+  --ttLightRed: #F2EEEA;
+  --ttGray: #B5B5B5;
+  --ttGray2: #808080;
+  --black: #000;
+  --white: #fff;
+  --tt-pink: #F820A3;
+  --tt-gold: #FFA945;
+  --tt-gradient-1: linear-gradient(90deg, var(--tt-pink) 0%, var(--tt-gold) 100%);
+  --tt-gradient-2: linear-gradient(90deg, var(--tt-gold) 0%, var(--tt-pink) 100%);
+ 
+  --font-inter: "Inter", sans-serif;
+  --plyr-color-main: var(--ttRed);
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-inter);
+  margin: auto;
+}
+
+ul {
+  list-style: none inside;
+  padding: 0;
+  margin: 0;
+}
+
+a,
+button,
+img,
+svg path {
+  transition: 0.4s ease;
+}
+
+a {
+  text-decoration: none;
+  vertical-align: top;
+}
+
+
+
+img {
+  max-width: 100%;
+}
+
+i {
+  line-height: 1;
+}
+
+p {
+  line-height: 1.75;
+}
+
+body{
+ 
+  background-color:#FFF1F1 ;
+}
+
+
+
+
+
+
+
+
