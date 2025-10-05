@@ -2,9 +2,7 @@ import { Route,Routes } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
-import Image from './components/image'
-import VideoSlider from './components/VideoSlider'
-import jo from "../src/assets/download.jpeg"
+
 import Footer from './components/Footer'
 import About from './pages/About'
 import Contact from './pages/Contact'
