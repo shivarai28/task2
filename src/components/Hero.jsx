@@ -1,112 +1,112 @@
-// import banner from "../assets/banner-2-bg.jpg"
-// import banner2 from '../assets/banner-2-img.png'
+// {// import banner from "../assets/banner-2-bg.jpg"
+// // import banner2 from '../assets/banner-2-img.png'
 
-// import v1 from "../assets/jo-banner-vector-1.svg"
-// import v2 from "../assets/jo-banner-vector-2.svg"
+// // import v1 from "../assets/jo-banner-vector-1.svg"
+// // import v2 from "../assets/jo-banner-vector-2.svg"
 
-// export default function Hero() {
-//   return (
-
-
-//  <section
-//     className=" min-h-screen w-screen  bg-cover bg-center  text-white"
-//      style={{ backgroundImage: `url(${banner})` ,height:`100vh`}} >
+// // export default function Hero() {
+// //   return (
 
 
+// //  <section
+// //     className=" min-h-screen w-screen  bg-cover bg-center  text-white"
+// //      style={{ backgroundImage: `url(${banner})` ,height:`100vh`}} >
 
-//           <div className=" mx-auto  h-full  max-w-[1350px] px-8 sm:px-10 lg:px-14 py-10 sm:py-24 ">
+
+
+// //           <div className=" mx-auto  h-full  max-w-[1350px] px-8 sm:px-10 lg:px-14 py-10 sm:py-24 ">
               
-//               <div className="  grid grid-cols-1 ml-[-24px]   px-4   lg:grid-cols-2 items-center gap-4">
-//                   {/* left part
-//                    */}
-//                   <div className=" relative min-w-3xl mt-10 pt-24 ">
-//                       <div className="absolute top-3"> <Bryan />
+// //               <div className="  grid grid-cols-1 ml-[-24px]   px-4   lg:grid-cols-2 items-center gap-4">
+// //                   {/* left part
+// //                    */}
+// //                   <div className=" relative min-w-3xl mt-10 pt-24 ">
+// //                       <div className="absolute top-3"> <Bryan />
                     
-//                       </div>
-//                       <img src={v1} className=" absolute bottom-[-100px] right-120" alt="" />
+// //                       </div>
+// //                       <img src={v1} className=" absolute bottom-[-100px] right-120" alt="" />
 
-//                       <h1 className="text-3xl md:text-4xl lg:text-[80px] font-[700] ">
-//                           I’m <span className="">Linda Susan</span>
-//                         <br />
-//                           <span className="">Beauty & Lifestyle
-//                               <br /> Influencer</span>
-//                          </h1>
-//                       <div className="mt-6 flex gap-4">
-//                         <button
-//                         className="md:px-6 md:py-3 px-4 py-2 rounded-[6px] font-semibold text-sm sm:text-base [background:var(--tt-gradient-1)] text-white hover:bg-pink-400 transition"
-//                         >
-//                         About Me
-//                         </button>
-//                         <button className="  md:px-6 md:py-3 rounded-[6px] hover:bg-pink-700 cursor-pointer border-red-100 font-semibold text-sm sm:text-md border-1 text-white   transition"
-//                         >
-//                         Contact Me
-//                         </button>
-//                       </div>
+// //                       <h1 className="text-3xl md:text-4xl lg:text-[80px] font-[700] ">
+// //                           I’m <span className="">Linda Susan</span>
+// //                         <br />
+// //                           <span className="">Beauty & Lifestyle
+// //                               <br /> Influencer</span>
+// //                          </h1>
+// //                       <div className="mt-6 flex gap-4">
+// //                         <button
+// //                         className="md:px-6 md:py-3 px-4 py-2 rounded-[6px] font-semibold text-sm sm:text-base [background:var(--tt-gradient-1)] text-white hover:bg-pink-400 transition"
+// //                         >
+// //                         About Me
+// //                         </button>
+// //                         <button className="  md:px-6 md:py-3 rounded-[6px] hover:bg-pink-700 cursor-pointer border-red-100 font-semibold text-sm sm:text-md border-1 text-white   transition"
+// //                         >
+// //                         Contact Me
+// //                         </button>
+// //                       </div>
 
-//                   </div>
+// //                   </div>
 
-//                   {/* right parert
-//                    */}
+// //                   {/* right parert
+// //                    */}
                  
-//                   <div className=" relative flex justify-center md:justify-end">
+// //                   <div className=" relative flex justify-center md:justify-end">
                      
-//                         <img
-//                         src={banner2}
-//                         alt="Linda Susan showcasing a beauty look"
-//                         className="h-[50vh] md:h-full  sm:max-h-[86.5vh]  max-w-lg object-contain drop-shadow-xl"
-//                         loading="lazy"
-//                         decoding="async"
-//                       />
-//                       <div className="absolute bottom-[120px] left-15 ">
-//                           <Bryan />
+// //                         <img
+// //                         src={banner2}
+// //                         alt="Linda Susan showcasing a beauty look"
+// //                         className="h-[50vh] md:h-full  sm:max-h-[86.5vh]  max-w-lg object-contain drop-shadow-xl"
+// //                         loading="lazy"
+// //                         decoding="async"
+// //                       />
+// //                       <div className="absolute bottom-[120px] left-15 ">
+// //                           <Bryan />
                       
-//                       </div>
-//                        <img src={v2} className="absolute bottom-[100px] right-[-153px]" alt="" />
-//                             </div>
+// //                       </div>
+// //                        <img src={v2} className="absolute bottom-[100px] right-[-153px]" alt="" />
+// //                             </div>
                   
 
 
             
 
 
-//               </div>
+// //               </div>
               
 
               
 
-//           </div>
+// //           </div>
   
-//   </section>
-// );
+// //   </section>
+// // );
 
 
 
 
-// }
+// // }
 
 
 
-// import love from "../assets/love.svg"
-// function Bryan() {
-//   return (
+// // import love from "../assets/love.svg"
+// // function Bryan() {
+// //   return (
    
       
-//       <>
+// //       <>
 
-//           <div className="relative flex items-center space-between h-[52px] gap-2 w-[160px] p-2 rounded-full bg-white">
-//               <img src={love} className="absolute right-3 h-7  top-[-10px]" alt="" />
-//               {/* <div className="absolute"></div> */}
-//               <img src={banner2} className="h-10 rounded-full object-cover " alt="" />
-//               <span className="text-[15px] text-black/50">Bryan has <br/>liked</span>
-//           </div>
+// //           <div className="relative flex items-center space-between h-[52px] gap-2 w-[160px] p-2 rounded-full bg-white">
+// //               <img src={love} className="absolute right-3 h-7  top-[-10px]" alt="" />
+// //               {/* <div className="absolute"></div> */}
+// //               <img src={banner2} className="h-10 rounded-full object-cover " alt="" />
+// //               <span className="text-[15px] text-black/50">Bryan has <br/>liked</span>
+// //           </div>
 
 
 
-//       </>
-//   )
+// //       </>
+// //   )
+// // }
+
 // }
-
-
 
 
 import banner from "../assets/banner-2-bg.jpg";

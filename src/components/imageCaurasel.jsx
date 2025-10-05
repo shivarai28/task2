@@ -1,20 +1,21 @@
 import { MdVerified } from "react-icons/md";
 import UpcomingLive from "./UpcomingLive";
-
-
+import bg  from "../assets/intro-live-bg.png"
+import intro from "../assets/intro-vector.svg"
+import intr from "../assets/intro-img.jpg"
 export default function ImageCaurasel() {
   return (
    
           <div className="  min-h-[200vh]  min-w-screen">
               {/* bg image  */}
               <div className=" isolate text-white min-h-[200vh] min-w-screen bg-black/90   "
-                    style={{ backgroundImage: `url(src/assets/intro-live-bg.png)`, backgroundSize: "cover", backgroundPosition: "center" }}
+                    style={{ backgroundImage: `${bg}`, backgroundSize: "cover", backgroundPosition: "center" }}
               >
                 <div className=" flex flex-col">
                       
                   <div className="relative flex items-center gap-2 h-full py-18  ">
                          
-                   <img src="src/assets/intro-vector.svg" alt="" className="absolute  -left-120  top-15     animate-[spin_4s_linear_infinite]"
+                   <img src={intro} alt="" className="absolute  -left-120  top-15     animate-[spin_4s_linear_infinite]"
  />
                    
                      <div className="flex-2   px-10 flex flex-col lg:gap-8 gap-4  lg:ml-27">
@@ -33,7 +34,7 @@ export default function ImageCaurasel() {
               
                   </div>
                 
-                  <img src="src/assets/intro-img.jpg" alt=""  className="lg:max-h-[500px]  max-h-[200px] md:max-h-[300px] rounded-l-full"/>
+                  <img src={intr} alt=""  className="lg:max-h-[500px]  max-h-[200px] md:max-h-[300px] rounded-l-full"/>
                 
                   </div>
                     <div className="h-fit w-full">

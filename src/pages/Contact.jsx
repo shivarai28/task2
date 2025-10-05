@@ -1,9 +1,7 @@
-import SocialMedia from '../components/SocialMedia'
-import LatestVideoReels from '../components/LatestVideoReels'
-import LatestArticle from '../components/LatestArticle'
-import ContactForm from '../components/ContactForm'
-import VideoSlider from '../components/VideoSlider'
+
 import { FaSearchLocation } from 'react-icons/fa'
+import contact from "../assets/inner-contact-img.png"
+import blob from "../assets/blob-haikei.svg"
 
 export default function Contact() {
   return (
@@ -28,11 +26,11 @@ export default function Contact() {
           <div className="bg-[#FFF2F2]  min-h-screen ">
               <div className=" max-w-7xl p-10 mx-auto p  ">
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-                  <div className=" "  style={{ backgroundImage: `url(/src/assets/blob-haikei.svg)`, backgroundSize: "cover", backgroundPosition: "center" }}
+                  <div className=" "  style={{ backgroundImage: `${blob}`, backgroundSize: "cover", backgroundPosition: "center" }}
                    >
                   <h1 className='text-3xl font-bold'>Request a Consultation</h1>
                   
-                    <img src="src/assets/inner-contact-img.png" alt="" className="" />
+                    <img src={contact} alt="" className="" />
                   </div>
 
               <div className="relative bg-white flex  rounded-2xl flex-col items-center p-10">

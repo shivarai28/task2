@@ -11,11 +11,11 @@ import { Navigation, Pagination } from "swiper/modules";
 export default function LatestVideoReels() {
 
    const items = [
-  { id: 1, img: "src/assets/download.jpeg", price: 5.0, title: "Glam Night" },
-  { id: 2, img: "src/assets/download.jpeg", price: 5.0, title: "Pink Studio" },
-  { id: 3, img: "src/assets/download.jpeg", price: 5.0, title: "Soft Lights" },
-  { id: 4, img: "src/assets/download.jpeg", price: 5.0, title: "Studio Set" },
-  { id: 5, img: "src/assets/download.jpeg", price: 5.0, title: "Editorial" },
+  { id: 1, img: "../assets/download.jpeg", price: 5.0, title: "Glam Night" },
+  { id: 2, img: "../assets/download.jpeg", price: 5.0, title: "Pink Studio" },
+  { id: 3, img: "../assets/download.jpeg", price: 5.0, title: "Soft Lights" },
+  { id: 4, img: "../assets/download.jpeg", price: 5.0, title: "Studio Set" },
+  { id: 5, img: "../assets/download.jpeg", price: 5.0, title: "Editorial" },
   ];
   
   const  heading = "Latest Video Reels"

@@ -5,14 +5,15 @@ import ContactForm from '../components/ContactForm'
 import VideoSlider from '../components/VideoSlider'
 import { MdVerified } from "react-icons/md";
 import breadchrumb from "../assets/inner-about-img.png"
-
+import bg from "../assets/breadcrumb-bg.jpg"
+import signature from "../assets/signature.jpg"
 export default function About() {
   return (
       <div  className='flex flex-col gap-4 '>
           
             {/* top about  */}
           <div className=" max-h-screen h-[63vh]  "
-              style={{ backgroundImage: `url(/src/assets/breadcrumb-bg.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }}
+              style={{ backgroundImage: `${bg}`, backgroundSize: "cover", backgroundPosition: "center" }}
               
           >
               <div className="flex flex-col items-center justify-center [background:var(--tt-gradient-1)] w-full h-full opacity-65">
@@ -42,7 +43,7 @@ export default function About() {
                                      <li className="flex items-center gap-4 font-semibold text-sm"><MdVerified className='text-pink-600 text-lg' /> Non mattis nulla, in ultrices diam</li>
                                      <li className="flex items-center gap-4 font-semibold text-sm"><MdVerified className='text-pink-600 text-lg' /> Non mattis nulla, in ultrices diam</li>
                           </ul>
-                          <img src="src/assets/signature.jpg" alt="" className='h-15 w-fit' />
+                          <img src={signature} alt="" className='h-15 w-fit' />
                           
 
                       </div>

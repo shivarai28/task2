@@ -1,4 +1,4 @@
- import React from 'react'
+ import v1 from "../assets/jo-video-1.jpg"
  
  export default function UpcomingLive() {
    return (
@@ -23,7 +23,7 @@ function ImageCard() {
    
            <div className="w-full h-full md:flex grid  items-center gap-4 bg-black/70 p-8 rounded-2xl">
 
-               <img src="/src/assets/jo-video-1.jpg" alt=""  className='  rounded-2xl w-[300px] lg:w-[400px]'/>
+               <img src={v1} alt=""  className='  rounded-2xl w-[300px] lg:w-[400px]'/>
                <div className="flex flex-col p-4 gap-4 h-full ">
                      <button className='bg-white text-black rounded-2xl p-2 w-fit font-semibold text-sm flex items-center gap-1 hover:text-blue-700 '> <img className='h-4' src="/src/assets/logo/social-icon-1.png" alt="" />Facebook Live</button>           
                    <h3 className='font-bold text-xl lg:text-2xl '> Smiley woman pop party studio medium shot</h3>

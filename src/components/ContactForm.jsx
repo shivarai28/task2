@@ -1,12 +1,19 @@
-import React from 'react'
+import bg from "../assets/contact-bg.jpg"
+import contact from "../assets/contact-img.png"
+import v1 from "../assets/insta-feed/footer-img-1.jpg"
+import v2 from "../assets/insta-feed/footer-img-2.jpg"
+import v3 from "../assets/insta-feed/footer-img-3.jpg"
+import v4 from "../assets/insta-feed/footer-img-4.jpg"
+import contactsvg from "../assets/contact-form-icon.svg"
+
 
 export default function ContactForm() {
   return (
-<section className=" isolate min-h-[100vh] w-full  overflow-hidden"     style={{ backgroundImage: `url(src/assets/contact-bg.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} >
+<section className=" isolate min-h-[100vh] w-full  overflow-hidden"     style={{ backgroundImage: `${bg}`, backgroundSize: "cover", backgroundPosition: "center" }} >
           <div  className="relative     ">
               <div className="max-w-7xl flex mx-auto lg:p-10 p-3  items-center mt-[110px] gap-6">
               <div className=" min-h-screen lg:max-w-xl max-w-5xl lg:p-5 p-3  shadow-md bg-white rounded-2xl ">
-                  <img src="src/assets/contact-form-icon.svg" alt="contact" className=''/>
+                  <img src={contactsvg} alt="contact" className=''/>
                   <h1 className=' text-3xl font-bold  py-5'>   Let’s Work Together on your next Project</h1>
                   <span className="text-[16px] leading-tight py-3 text-black/70">consectetur adipiscing elit. Donec non mattis nulla, in ultrices diam. Curabitur nec pharetra nunc. Nunc nec pellentesque nisl. Ut non mauris bibendum</span>
                   <form action="" className='flex px-2  py-10 flex-col items-start justify-center' >
@@ -26,7 +33,7 @@ export default function ContactForm() {
 
               <div className=" hidden h-full w-full  bg-black  lg:flex  ">
                   
-                  <img src="src/assets/contact-img.png" alt="" className=' absolute h-[60%] bottom-89  object-cover    '/>
+                  <img src={contact} alt="" className=' absolute h-[60%] bottom-89  object-cover    '/>
                   
 
               </div>
@@ -41,11 +48,11 @@ export default function ContactForm() {
                   <h1 className='lg:text-3xl py-10 text-2xl text-center font-semibold  text-black'>Trusted Partners</h1>
                   <div className="flex items-center px-4 py-4 gap-10">
                       
-                      <img src="src/assets/insta-feed/footer-img-1.jpg" alt=""  className='rounded-2xl shadow-lg'/>
-                      <img src="src/assets/insta-feed/footer-img-2.jpg" alt=""  className='rounded-2xl shadow-lg'/>
-                      <img src="src/assets/insta-feed/footer-img-3.jpg" alt=""  className='rounded-2xl shadow-lg'/>
-                      <img src="src/assets/insta-feed/footer-img-4.jpg" alt=""  className='rounded-2xl shadow-lg'/>
-                      <img src="src/assets/insta-feed/footer-img-1.jpg" alt=""  className='rounded-2xl shadow-lg'/>
+                      <img src={v1} alt=""  className='rounded-2xl shadow-lg'/>
+                      <img src={v2} alt=""  className='rounded-2xl shadow-lg'/>
+                      <img src={v3} alt=""  className='rounded-2xl shadow-lg'/>
+                      <img src={v4} alt=""  className='rounded-2xl shadow-lg'/>
+                      <img src={v1} alt=""  className='rounded-2xl shadow-lg'/>
            
 
                   </div>
